@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class mein22 {
-
+ 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("введіть число c: ");
