@@ -1,7 +1,7 @@
 
 import java.math.MathContext;
 import  java.util.Scanner;
- 
+
 public class mein2 {
 
 
@@ -41,10 +41,6 @@ public class mein2 {
         };
 
 
-        if(c > 0){ System.out.println("c більше нуля тому рахуємо за формулою - √(b-a) + 2√c "); }
-        if(c == 0){ System.out.println("c дорівнює нулю тому рахуємо за формулою - b / (c - 6 * a) "); }
-        if(c < 0){ System.out.println("c меньше нуля тому рахуємо за формулою - b + 12 * (c)^3 "); }
-
 
 
         System.out.println("y = " + y);
@@ -52,3 +48,4 @@ public class mein2 {
     }
 
 }
+
