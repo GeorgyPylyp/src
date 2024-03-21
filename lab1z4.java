@@ -16,13 +16,14 @@ public class lab1z4 {
         if (y <= 0 || a <= 0 || z <= 0) {
             System.out.println("одне із чисел дорівнює або менше нуля введіть інше ");
         }
+        else if ( y <= 2){
+            System.out.println("дайте зміній y інше значення");
+        }
          else  {
             System.out.println("рахуємо за формулою - x = √(y^2 -2a) + cos^2(z) ");
             x = (double) (a * Math.sqrt((y * y) - 2 * a) + +Math.pow(Math.cos(z), 2));
             System.out.println("х дорівнює: "+x );
         }
-
-
 
 
 
