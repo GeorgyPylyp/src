@@ -15,11 +15,11 @@ public class lab1z2 {
         System.out.println("площа квадрату: " + Ss);
 
         if (Ss > Sr){
-            System.out.println(Ss+">"+Sr);
-            System.out.println("круг поміститься в квадрат" ) ;}
+            System.out.println("площа квадрату більша за площу круга");
+            System.out.println("круг поміститься в квадрат") ;}
             else if (Ss < Sr){
-                System.out.println(Ss+"<"+Sr);
-                System.out.println("круг не поміститься в квадрат" ) ;
+                System.out.println("площа круга більша за площу квадрату");
+                System.out.println("круг не поміститься в квадрат") ;
             }
         }
 
